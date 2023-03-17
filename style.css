@@ -49,10 +49,11 @@ div {
   flex-direction: row;
   justify-content: center;
   position: relative;
+  border: solid black 5px;
 
-  width: 200px;
+  width: 240px;
   height: 200px;
-  margin-left: 100px;
+  margin-left: 50px;
 
   animation-name: slideMole;
   animation-duration: 5s;
@@ -63,28 +64,27 @@ div {
   animation-play-state: running;
 }
 
-
 img {
   object-fit: scale-down;
 }
 
 @keyframes slideMole {
-     0%{
-        background-image: url('/assets/toupeira6.svg');
-    }
-    20%{
-        background-image: url('/assets/toupeira1.svg');
-    }
-    40%{
-        background-image: url('/assets/toupeira2.svg');
-    }
-    60%{
-        background-image: url('/assets/toupeira3.svg');
-    }
-    80%{
-        background-image: url('/assets/toupeira4.svg');
-    }
-    100%{
-        background-image: url('/assets/toupeira5.svg');
-    }
+  0% {
+    background-image: url("/assets/toupeira6.svg");
+  }
+  20% {
+    background-image: url("/assets/toupeira1.svg");
+  }
+  40% {
+    background-image: url("/assets/toupeira2.svg");
+  }
+  60% {
+    background-image: url("/assets/toupeira3.svg");
+  }
+  80% {
+    background-image: url("/assets/toupeira4.svg");
+  }
+  100% {
+    background-image: url("/assets/toupeira5.svg");
+  }
 }
