@@ -46,45 +46,40 @@ div {
 
 .hole {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   position: relative;
-  border: solid black 5px;
 
   width: 240px;
   height: 200px;
-  margin-left: 50px;
-
+  margin-left: 70px;
   animation-name: slideMole;
-  animation-duration: 5s;
+  animation-duration: 430ms;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-direction: forward;
   animation-play-state: running;
-}
-
-img {
-  object-fit: scale-down;
 }
 
 @keyframes slideMole {
   0% {
     background-image: url("/assets/toupeira6.svg");
+    background-repeat: no-repeat;
   }
   20% {
     background-image: url("/assets/toupeira1.svg");
+    background-repeat: no-repeat;
   }
   40% {
     background-image: url("/assets/toupeira2.svg");
+    background-repeat: no-repeat;
   }
   60% {
     background-image: url("/assets/toupeira3.svg");
+    background-repeat: no-repeat;
   }
   80% {
     background-image: url("/assets/toupeira4.svg");
+    background-repeat: no-repeat;
   }
   100% {
     background-image: url("/assets/toupeira5.svg");
+    background-repeat: no-repeat;
   }
 }
