@@ -15,32 +15,12 @@ div {
   align-items: flex-end;
 }
 
-.gridOne {
+.grid {
   display: flex;
   gap: 50px;
   position: relative;
 
   top: 180px;
-  width: 1440px;
-}
-
-.gridTwo {
-  display: flex;
-  gap: 50px;
-  position: relative;
-
-  top: 200px;
-
-  width: 1440px;
-}
-
-.gridThree {
-  display: flex;
-  gap: 50px;
-  position: relative;
-
-  top: 220px;
-
   width: 1440px;
 }
 
@@ -51,9 +31,74 @@ div {
   width: 240px;
   height: 200px;
   margin-left: 70px;
+
+  background-image: url("/assets/toupeira6.svg");
+  background-repeat: no-repeat;
+
   animation-name: slideMole;
-  animation-duration: 430ms;
-  animation-iteration-count: infinite;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-play-state: paused;
+}
+
+#one {
+  animation-delay: 1s;
+  animation-play-state: running;
+}
+
+#two {
+  animation-delay: 4s;
+  animation-play-state: running;
+}
+
+#three {
+  animation-delay: 12s;
+  animation-play-state: running;
+}
+
+#four {
+  animation-delay: 9s;
+  animation-play-state: running;
+}
+
+#five {
+  animation-delay: 7s;
+  animation-play-state: running;
+}
+
+#six {
+  animation-delay: 2s;
+  animation-play-state: running;
+}
+
+#seven {
+  animation-delay: 10s;
+  animation-play-state: running;
+}
+
+#eight {
+  animation-delay: 6s;
+  animation-play-state: running;
+}
+
+#nine {
+  animation-delay: 5s;
+  animation-play-state: running;
+}
+
+#ten {
+  animation-delay: 11s;
+  animation-play-state: running;
+}
+
+#eleven {
+  animation-delay: 3s;
+  animation-play-state: running;
+}
+
+#twelve {
+  animation-delay: 8s;
   animation-play-state: running;
 }
 
@@ -78,8 +123,12 @@ div {
     background-image: url("/assets/toupeira4.svg");
     background-repeat: no-repeat;
   }
-  100% {
+  99% {
     background-image: url("/assets/toupeira5.svg");
+    background-repeat: no-repeat;
+  }
+  100% {
+    background-image: url("/assets/toupeira6.svg");
     background-repeat: no-repeat;
   }
 }
